@@ -1,0 +1,37 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class PlayerController : MonoBehaviour
+{
+    Rigidbody2D rb;
+    [SerializeField] float currentSpeed;
+
+    [Header("Walking")]
+    [SerializeField] float maxSpeed;
+    [SerializeField] float speedGain;
+
+
+    void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
+
+    void Update()
+    {
+        Movement();
+    }
+
+    void Movement()
+    {
+        float verticalInput = Input.GetAxis("Vertical");
+        float horizontalInput = Input.GetAxis("Horizontal");
+        currentSpeed = rb.velocity.magnitude;
+
+        if(currentSpeed < maxSpeed)
+        {
+            rb.AddForce(Vector2.up * speedGain * verticalInput);
+            rb.AddForce(Vector2.right * speedGain * horizontalInput);
+        }
+    }
+}
