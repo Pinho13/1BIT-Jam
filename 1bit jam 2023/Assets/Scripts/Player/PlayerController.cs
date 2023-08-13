@@ -24,8 +24,8 @@ public class PlayerController : MonoBehaviour
 
     void Movement()
     {
-        float verticalInput = Input.GetAxis("Vertical");
-        float horizontalInput = Input.GetAxis("Horizontal");
+        float verticalInput = Input.GetAxisRaw("Vertical");
+        float horizontalInput = Input.GetAxisRaw("Horizontal");
         currentSpeed = rb.velocity.magnitude;
 
         if(currentSpeed < maxSpeed)
