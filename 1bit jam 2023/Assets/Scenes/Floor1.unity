@@ -248,8 +248,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentSpeed: 0
-  maxSpeed: 150
-  speedGain: 50
+  maxSpeed: 100
+  speedGain: 25
 --- !u!58 &1199106367
 CircleCollider2D:
   m_ObjectHideFlags: 0

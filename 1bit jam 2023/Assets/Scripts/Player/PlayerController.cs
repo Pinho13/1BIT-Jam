@@ -30,8 +30,7 @@ public class PlayerController : MonoBehaviour
 
         if(currentSpeed < maxSpeed)
         {
-            rb.AddForce(Vector2.up * speedGain * verticalInput);
-            rb.AddForce(Vector2.right * speedGain * horizontalInput);
+            rb.AddForce((Vector2.up * verticalInput + Vector2.right * horizontalInput).normalized * speedGain * Time.deltaTime * 1000);
         }
     }
 }
