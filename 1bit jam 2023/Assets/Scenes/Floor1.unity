@@ -308,6 +308,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1975413571}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1008059419
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1008059420}
+  m_Layer: 0
+  m_Name: Smg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1008059420
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008059419}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1, y: -0.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1975413571}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1199106365
 GameObject:
   m_ObjectHideFlags: 0
@@ -530,6 +561,7 @@ Transform:
   - {fileID: 649525926}
   - {fileID: 720489088}
   - {fileID: 916510728}
+  - {fileID: 1008059420}
   m_Father: {fileID: 1199106370}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1975413572
@@ -642,6 +674,17 @@ MonoBehaviour:
     bullet: {fileID: 8674407617022706120, guid: a81579f8b5a266f418166831db51bcdf, type: 3}
     firepoints:
     - {fileID: 916510728}
+  - weaponType: 2
+    bulletForce: 35
+    fireRate: 5
+    spread: 10
+    recoil: 3
+    bulletPerShot: 1
+    Damage: 0.75
+    EnergyConsumed: 5
+    bullet: {fileID: 8674407617022706120, guid: a81579f8b5a266f418166831db51bcdf, type: 3}
+    firepoints:
+    - {fileID: 1008059420}
   currentWeaponStats:
     weaponType: 0
     bulletForce: 0

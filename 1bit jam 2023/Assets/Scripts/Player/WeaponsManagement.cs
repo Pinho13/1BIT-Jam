@@ -5,7 +5,7 @@ using Unity.Mathematics;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-public enum WeaponType {pistol, shotgun, smg}
+public enum WeaponType {pistol, shotgun, Smg}
 public class WeaponsManagement : MonoBehaviour
 {
 
