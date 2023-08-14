@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Unity.Mathematics;
 using UnityEngine;
 using Random = UnityEngine.Random;
+using EZCameraShake;
 
 public enum WeaponType {pistol, shotgun, Smg}
 public class WeaponsManagement : MonoBehaviour
@@ -29,6 +30,7 @@ public class WeaponsManagement : MonoBehaviour
     Animator gunAnim;
     float timeToFire;
     [SerializeField] Rigidbody2D rb;
+    [SerializeField] GameObject shootEffect;
 
     void Start()
     {
@@ -82,8 +84,10 @@ public class WeaponsManagement : MonoBehaviour
             float currentSpread = Random.Range(-currentWeaponStats.spread, currentWeaponStats.spread);
             GameObject bullet = Instantiate(currentWeaponStats.bullet, currentWeaponStats.firepoints[n].position, Quaternion.Euler(0, 0, transform.rotation.eulerAngles.z + currentSpread));
             bullet.GetComponent<Rigidbody2D>().AddForce(bullet.transform.right * currentWeaponStats.bulletForce, ForceMode2D.Impulse);
+            Instantiate(shootEffect, currentWeaponStats.firepoints[n].position, Quaternion.Euler(-transform.rotation.eulerAngles.z, 90, 0));
         }
         rb.AddForce(-currentWeaponStats.firepoints[n].right * currentWeaponStats.recoil, ForceMode2D.Impulse);
+        CameraShaker.Instance.ShakeOnce(currentWeaponStats.Magnitude, currentWeaponStats.roughness, currentWeaponStats.fadeIn, currentWeaponStats.fadeOut);
     }
 
     void changeWeapons()
@@ -104,6 +108,7 @@ public class WeaponsManagement : MonoBehaviour
 public class WeaponStats
 {
     public WeaponType weaponType;
+    [Header("WeaponStats")]
     public float bulletForce;
     public float fireRate;
     public float spread;
@@ -111,7 +116,14 @@ public class WeaponStats
     public int bulletPerShot;
     public float Damage;
     public float EnergyConsumed;
-    public GameObject bullet;
 
+    [Header("References")]
+    public GameObject bullet;
     public Transform[] firepoints;
+
+    [Header("CameraShake")]
+    public float Magnitude;
+    public float roughness;
+    public float fadeIn;
+    public float fadeOut;
 }
