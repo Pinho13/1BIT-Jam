@@ -5,6 +5,7 @@ using Unity.Mathematics;
 using UnityEngine;
 using Random = UnityEngine.Random;
 using EZCameraShake;
+using TMPro;
 
 public enum WeaponType {pistol, shotgun, Smg}
 public class WeaponsManagement : MonoBehaviour
@@ -22,8 +23,8 @@ public class WeaponsManagement : MonoBehaviour
     
 
     [Header("Energy")]
-    [SerializeField] float MaxEnergy;
-    [SerializeField] float currentEnergy;
+    [SerializeField] int MaxEnergy;
+    [SerializeField] int currentEnergy;
 
 
     [Header("References")]
@@ -31,6 +32,7 @@ public class WeaponsManagement : MonoBehaviour
     float timeToFire;
     [SerializeField] Rigidbody2D rb;
     [SerializeField] GameObject shootEffect;
+    [SerializeField] TMP_Text energyText;
 
     void Start()
     {
@@ -42,6 +44,7 @@ public class WeaponsManagement : MonoBehaviour
     {
         WeaponChosen();
         ShootDelay();
+        Displays();
     }
     void WeaponChosen()
     {
@@ -79,15 +82,23 @@ public class WeaponsManagement : MonoBehaviour
 
     void shoot(int n)
     {
-        for(int i = 0; i < currentWeaponStats.bulletPerShot; i++)
+        if(currentEnergy >= currentWeaponStats.EnergyConsumed)
         {
-            float currentSpread = Random.Range(-currentWeaponStats.spread, currentWeaponStats.spread);
-            GameObject bullet = Instantiate(currentWeaponStats.bullet, currentWeaponStats.firepoints[n].position, Quaternion.Euler(0, 0, transform.rotation.eulerAngles.z + currentSpread));
-            bullet.GetComponent<Rigidbody2D>().AddForce(bullet.transform.right * currentWeaponStats.bulletForce, ForceMode2D.Impulse);
-            Instantiate(shootEffect, currentWeaponStats.firepoints[n].position, Quaternion.Euler(-transform.rotation.eulerAngles.z, 90, 0));
+            currentEnergy -= currentWeaponStats.EnergyConsumed;
+            for(int i = 0; i < currentWeaponStats.bulletPerShot; i++)
+            {
+                float currentSpread = Random.Range(-currentWeaponStats.spread, currentWeaponStats.spread);
+                GameObject bullet = Instantiate(currentWeaponStats.bullet, currentWeaponStats.firepoints[n].position, Quaternion.Euler(0, 0, transform.rotation.eulerAngles.z + currentSpread));
+                bullet.GetComponent<Rigidbody2D>().AddForce(bullet.transform.right * currentWeaponStats.bulletForce, ForceMode2D.Impulse);
+                Instantiate(shootEffect, currentWeaponStats.firepoints[n].position, Quaternion.Euler(-transform.rotation.eulerAngles.z, 90, 0));
+            }
+            rb.AddForce(-currentWeaponStats.firepoints[n].right * currentWeaponStats.recoil, ForceMode2D.Impulse);
+            CameraShaker.Instance.ShakeOnce(currentWeaponStats.Magnitude, currentWeaponStats.roughness, currentWeaponStats.fadeIn, currentWeaponStats.fadeOut);
         }
-        rb.AddForce(-currentWeaponStats.firepoints[n].right * currentWeaponStats.recoil, ForceMode2D.Impulse);
-        CameraShaker.Instance.ShakeOnce(currentWeaponStats.Magnitude, currentWeaponStats.roughness, currentWeaponStats.fadeIn, currentWeaponStats.fadeOut);
+    }
+    void Displays()
+    {
+        energyText.text = currentEnergy.ToString() + " / " + MaxEnergy.ToString();
     }
 
     void changeWeapons()
@@ -100,6 +111,24 @@ public class WeaponsManagement : MonoBehaviour
     void stopShooting()
     {
         gunAnim.SetBool("Shooting", false);
+    }
+
+    public void Shotgun()
+    {
+        weaponType = WeaponType.shotgun;
+        changeWeapons();
+    }
+
+    public void pistol()
+    {
+        weaponType = WeaponType.pistol;
+        changeWeapons();
+    }
+
+    public void Smg()
+    {
+        weaponType = WeaponType.Smg;
+        changeWeapons();
     }
 
 }
@@ -115,7 +144,7 @@ public class WeaponStats
     public float recoil;
     public int bulletPerShot;
     public float Damage;
-    public float EnergyConsumed;
+    public int EnergyConsumed;
 
     [Header("References")]
     public GameObject bullet;

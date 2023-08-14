@@ -1,0 +1,4 @@
+Heavygunner/harder dark ranged enemy
+frames 1-10 are with the gun not spun up
+11-20 are with spun up
+21 is the corpse
