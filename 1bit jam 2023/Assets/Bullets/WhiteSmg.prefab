@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 8852234024491709658}
   m_Layer: 0
   m_Name: WhiteSmg
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -174,6 +174,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   particles: {fileID: 9007417604891673384, guid: 8bb4b582ef9d5a64c8449577f58d01a9, type: 3}
   Damage: 0
+  knockback: 3
+  EnergyReturned: 0
 --- !u!96 &8852234024491709658
 TrailRenderer:
   serializedVersion: 3

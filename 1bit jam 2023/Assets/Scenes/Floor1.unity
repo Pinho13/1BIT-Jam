@@ -1210,6 +1210,7 @@ GameObject:
   - component: {fileID: 601804304}
   - component: {fileID: 601804305}
   - component: {fileID: 601804306}
+  - component: {fileID: 601804307}
   m_Layer: 0
   m_Name: BasicmeleeDark
   m_TagString: Untagged
@@ -1404,6 +1405,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &601804307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 601804299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40101c8fcc2e7dc428e33240e6ae33fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxHealth: 30
+  currentHealth: 30
+  knockbackVel: 5
 --- !u!1 &639550955
 GameObject:
   m_ObjectHideFlags: 0
@@ -4407,6 +4423,8 @@ MonoBehaviour:
     bulletPerShot: 1
     Damage: 1
     EnergyConsumed: 10
+    EnergyReturned: 20
+    bulletKnockback: 2
     bullet:
     - {fileID: 4215276545875562192, guid: 15e8d4552f516df43a3ade427191b087, type: 3}
     - {fileID: 6440302217971031470, guid: e5c0af8e926153c4785e334a20b9c355, type: 3}
@@ -4425,6 +4443,8 @@ MonoBehaviour:
     bulletPerShot: 6
     Damage: 0.5
     EnergyConsumed: 20
+    EnergyReturned: 5
+    bulletKnockback: 0.5
     bullet:
     - {fileID: 5131411529764105662, guid: 9333485a1278f2848ae604f74687c77f, type: 3}
     - {fileID: 8172877788982976821, guid: 5c5f2ac1845e71d49b2c5c6b98222bd3, type: 3}
@@ -4442,6 +4462,8 @@ MonoBehaviour:
     bulletPerShot: 1
     Damage: 0.75
     EnergyConsumed: 5
+    EnergyReturned: 15
+    bulletKnockback: 0.7
     bullet:
     - {fileID: 1938046561877531738, guid: 7fcbfafc81f52c74b92a409850132d47, type: 3}
     - {fileID: 5273228851768558742, guid: 28e8726106c1b3046aaa21dd2c2491e2, type: 3}
@@ -4460,6 +4482,8 @@ MonoBehaviour:
     bulletPerShot: 0
     Damage: 0
     EnergyConsumed: 0
+    EnergyReturned: 0
+    bulletKnockback: 0
     bullet: []
     firepoints: []
     Magnitude: 0

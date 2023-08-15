@@ -5,8 +5,10 @@ using UnityEngine;
 public class BulletScript : MonoBehaviour
 {
 
-    [SerializeField] GameObject particles;
+    public GameObject particles;
     public float Damage;
+    public float knockback;
+    public int EnergyReturned;
 
     void Start()
     {
@@ -23,7 +25,7 @@ public class BulletScript : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Walls"))
         {
-            Instantiate(particles, transform.position, Quaternion.Euler(transform.rotation.eulerAngles.z, 90, 0));
+            Instantiate(particles, transform.position, Quaternion.identity);
             Destroy(this.gameObject);
         }
     }
