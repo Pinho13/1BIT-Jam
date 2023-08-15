@@ -25,14 +25,15 @@ public class WeaponsManagement : MonoBehaviour
     [Header("Energy")]
     [SerializeField] int MaxEnergy;
     [SerializeField] int currentEnergy;
+    int typeOfBullet;
 
 
     [Header("References")]
-    Animator gunAnim;
-    float timeToFire;
     [SerializeField] Rigidbody2D rb;
     [SerializeField] GameObject shootEffect;
     [SerializeField] TMP_Text energyText;
+    Animator gunAnim;
+    float timeToFire;
 
     void Start()
     {
@@ -64,18 +65,34 @@ public class WeaponsManagement : MonoBehaviour
         {
             if(Input.GetMouseButtonDown(0))
             {
+                typeOfBullet = 0;
+                gunAnim.SetBool("Shooting", true);
+            }else if(Input.GetMouseButtonDown(1))
+            {
+                typeOfBullet = 1;
                 gunAnim.SetBool("Shooting", true);
             }
         }
         else
         {
-            if(Input.GetMouseButton(0) && Time.time > timeToFire)
+            if(Time.time > timeToFire)
             {
-                timeToFire = Time.time + 1/currentWeaponStats.fireRate;
-                gunAnim.SetBool("Shooting", true);
-            }else if(!Input.GetMouseButton(0))
-            {
-                gunAnim.SetBool("Shooting", false);
+                if(Input.GetMouseButton(0))
+                {
+                    typeOfBullet = 0;
+                    timeToFire = Time.time + 1/currentWeaponStats.fireRate;
+                    gunAnim.SetBool("Shooting", true);
+                }else if(Input.GetMouseButton(1))
+                {
+                    typeOfBullet = 1;
+                    timeToFire = Time.time + 1/currentWeaponStats.fireRate;
+                    gunAnim.SetBool("Shooting", true);
+                }
+
+                if(!Input.GetMouseButton(0) && !Input.GetMouseButton(1))
+                {
+                    gunAnim.SetBool("Shooting", false);
+                }
             }
         }
     }
@@ -88,7 +105,8 @@ public class WeaponsManagement : MonoBehaviour
             for(int i = 0; i < currentWeaponStats.bulletPerShot; i++)
             {
                 float currentSpread = Random.Range(-currentWeaponStats.spread, currentWeaponStats.spread);
-                GameObject bullet = Instantiate(currentWeaponStats.bullet, currentWeaponStats.firepoints[n].position, Quaternion.Euler(0, 0, transform.rotation.eulerAngles.z + currentSpread));
+                GameObject bullet = Instantiate(currentWeaponStats.bullet[typeOfBullet], currentWeaponStats.firepoints[n].position, Quaternion.Euler(0, 0, transform.rotation.eulerAngles.z + currentSpread));
+                bullet.GetComponent<BulletScript>(). Damage = currentWeaponStats.Damage;
                 bullet.GetComponent<Rigidbody2D>().AddForce(bullet.transform.right * currentWeaponStats.bulletForce, ForceMode2D.Impulse);
                 Instantiate(shootEffect, currentWeaponStats.firepoints[n].position, Quaternion.Euler(-transform.rotation.eulerAngles.z, 90, 0));
             }
@@ -147,7 +165,7 @@ public class WeaponStats
     public int EnergyConsumed;
 
     [Header("References")]
-    public GameObject bullet;
+    public GameObject[] bullet;
     public Transform[] firepoints;
 
     [Header("CameraShake")]

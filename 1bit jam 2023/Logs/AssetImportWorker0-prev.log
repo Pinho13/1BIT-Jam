@@ -15,7 +15,7 @@ C:/Users/Ryzen/Documents/GitHub/1BIT-Jam/1bit jam 2023
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59871
+55122
 Successfully changed project path to: C:/Users/Ryzen/Documents/GitHub/1BIT-Jam/1bit jam 2023
 C:/Users/Ryzen/Documents/GitHub/1BIT-Jam/1bit jam 2023
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/Ryzen/Documents/GitHub/1BIT-Jam/1bit jam 2023
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17988] Host "[IP] 25.56.220.80 [Port] 0 [Flags] 2 [Guid] 792017189 [EditorId] 792017189 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8UK00G8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [10944] Host "[IP] 25.56.220.80 [Port] 0 [Flags] 2 [Guid] 3574713001 [EditorId] 3574713001 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8UK00G8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [17988] Host "[IP] 25.56.220.80 [Port] 0 [Flags] 2 [Guid] 792017189 [EditorId] 792017189 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8UK00G8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [10944] Host "[IP] 25.56.220.80 [Port] 0 [Flags] 2 [Guid] 3574713001 [EditorId] 3574713001 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8UK00G8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 24.68 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 25.88 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -69,49 +69,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.032716 seconds.
-- Loaded All Assemblies, in  0.617 seconds
+Registered in 0.030240 seconds.
+- Loaded All Assemblies, in  0.628 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Android Extension - Scanning For ADB Devices 557 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.061 seconds
-Domain Reload Profiling: 1673ms
-	BeginReloadAssembly (194ms)
+- Finished resetting the current domain, in  1.072 seconds
+Domain Reload Profiling: 1694ms
+	BeginReloadAssembly (188ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (57ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (124ms)
-	LoadAllAssembliesAndSetupDomain (220ms)
-		LoadAssemblies (189ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (116ms)
+	LoadAllAssembliesAndSetupDomain (244ms)
+		LoadAssemblies (183ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (215ms)
-			TypeCache.Refresh (213ms)
-				TypeCache.ScanAssembly (194ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
+		AnalyzeDomain (239ms)
+			TypeCache.Refresh (237ms)
+				TypeCache.ScanAssembly (218ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1062ms)
+	FinalizeReload (1072ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (981ms)
+		SetupLoadedEditorAssemblies (975ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (741ms)
+			InitializePlatformSupportModulesInManaged (757ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (156ms)
-			ProcessInitializeOnLoadMethodAttributes (74ms)
+			ProcessInitializeOnLoadAttributes (141ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,426 +121,93 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Ryzen\Documents\GitHub\1BIT-Jam\1bit jam 2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Ryzen\Documents\GitHub\1BIT-Jam\1bit jam 2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.127 seconds
-Refreshing native plugins compatible for Editor in 10.49 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.146 seconds
+Refreshing native plugins compatible for Editor in 11.86 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.339 seconds
-Domain Reload Profiling: 2454ms
+- Finished resetting the current domain, in  1.270 seconds
+Domain Reload Profiling: 2405ms
 	BeginReloadAssembly (247ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (54ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (77ms)
-	LoadAllAssembliesAndSetupDomain (721ms)
-		LoadAssemblies (594ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (86ms)
+	LoadAllAssembliesAndSetupDomain (726ms)
+		LoadAssemblies (595ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (280ms)
-			TypeCache.Refresh (235ms)
-				TypeCache.ScanAssembly (207ms)
+		AnalyzeDomain (277ms)
+			TypeCache.Refresh (227ms)
+				TypeCache.ScanAssembly (202ms)
 			ScanForSourceGeneratedMonoScriptInfo (35ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1340ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1271ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (940ms)
+		SetupLoadedEditorAssemblies (989ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (48ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (141ms)
-			ProcessInitializeOnLoadAttributes (673ms)
-			ProcessInitializeOnLoadMethodAttributes (53ms)
-			AfterProcessingInitializeOnLoad (20ms)
+			BeforeProcessingInitializeOnLoad (157ms)
+			ProcessInitializeOnLoadAttributes (696ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (23ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 11.39 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 12.38 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4198 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 81 unused Assets / (1.5 MB). Loaded Objects now: 4649.
-Memory consumption went from 160.9 MB to 159.5 MB.
-Total: 6.759000 ms (FindLiveObjects: 0.432500 ms CreateObjectMapping: 0.148100 ms MarkObjects: 5.419300 ms  DeleteObjects: 0.757100 ms)
+Unloading 4240 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (1.5 MB). Loaded Objects now: 4691.
+Memory consumption went from 161.6 MB to 160.2 MB.
+Total: 6.336000 ms (FindLiveObjects: 0.504100 ms CreateObjectMapping: 0.173800 ms MarkObjects: 4.845700 ms  DeleteObjects: 0.811100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/NavMeshSurface.cs: 1cd02bcdec9d22fff74c99422329f637 -> 8115f29c271cd45571ed95ae28923799
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/NavMeshModifierVolumeEditor.cs: 622ec72c0a35d25572f31abfc0389609 -> 4efcfae0490ed40c829d9b41b65c0d67
-  custom:scripting/monoscript/fileName/NavigationOverlay.cs: 2744f4e7946ebbb71339c9b1ce538d00 -> 
-  custom:scripting/monoscript/fileName/ConverterItemDescriptor.cs: 8182050d34c5cb602eb7913435a7abee -> 
-  custom:scripting/monoscript/fileName/BuiltInToNavMeshSurfaceConverterContainer.cs: c40a906f9f99ea8a6c5aaa215767017f -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/NavigationWindow.cs: 7884404b71178f59d8819c380b951d7c -> 
-  custom:scripting/monoscript/fileName/NavMeshComponentsGUIUtility.cs: 11ffd55d0363fe9fbf8861c5f5d81159 -> 77ae7a9bdc05bf28225c8494fcf123f9
-  custom:scripting/monoscript/fileName/ConverterItemInfo.cs: 9fb131dfa28a9ed6b6d00fd9cf83ece4 -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:scripting/monoscript/fileName/NavMeshAssetManager.cs: bd7c4cf8a75369fbc29df4c78587a37f -> 72dd8685487802f241e8befe273ef025
-  custom:scripting/monoscript/fileName/NavMeshSurfaceEditor.cs: 11952169e53ceb8fa77b721ac13bbc33 -> 6f51188356864b0e1d6e9b1039308846
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/NavMeshModifierVolume.cs: 0ce026f1094606c8a54952ab73721471 -> f7a6ba2c38ed91731a69e3c4a4be9002
-  custom:scripting/monoscript/fileName/NavMeshUpdaterUtility.cs: 5eb03802e6dba19b3e13aaf384805cac -> 
-  custom:scripting/monoscript/fileName/NavigationPreferences.cs: ada9399a4f085d4c824cc06527e7fcae -> 
-  custom:scripting/monoscript/fileName/NavMeshUpdaterEditor.cs: 169704080eda430978bba61ddedeb304 -> 
-  custom:scripting/monoscript/fileName/NavMeshModifierEditor.cs: f79c79b56d0f858fad111269f4df088d -> 88d1fe31235f85be2f618a1c808f65f0
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/HelpUrls.cs: c1a90585e3e9c9d25f58f9141655f24f -> 
-  custom:scripting/monoscript/fileName/EditorStyles.cs: 86b9f4d8fe570a8d8295bfc466c975cf -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:scripting/monoscript/fileName/NavMeshLinkEditor.cs: 00d457b4606b2a652687d158ff14d534 -> afb0348db22b55f23095f9cea8e364de
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/NavMeshModifier.cs: 08c148f5182ce13ca868880b0ccc03b9 -> 8892e93fe96bf0c5a5c519f467d2b1ca
-  custom:scripting/monoscript/fileName/NavMeshSceneConverter.cs: baf486a1c1cdf03a3111dd113d13c2f4 -> 
-  custom:scripting/monoscript/fileName/SystemConverterContainer.cs: eb4026ea01a117ce0888f693e9eed2cd -> 
-  custom:scripting/monoscript/fileName/NavMeshLink.cs: e14e05ace48bbb07a523202228054a2d -> f7e9d6596b10277e63f0d0278ea3aa47
-  custom:scripting/monoscript/fileName/ObsoleteNavigationWindowMenuEntry.cs: c7f73386e6473f401a8e4151cac4e1e5 -> 
-  custom:scripting/monoscript/fileName/InitializeConverterContext.cs: a97e19589a5774cdc2a34a28caea355f -> 
-  custom:scripting/monoscript/fileName/SystemConverter.cs: c748d1769fc66e95256254a1cc1497f3 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/RunItemContext.cs: 338b2243183036c2b60f94c1b5e817c5 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/SystemConvertersEditor.cs: c127c1335f24b77ca70195bf2136c6a2 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 20919.705590 seconds.
-  path: Assets/art/small/square.png
-  artifactKey: Guid(5c076e34c98f97c4a9b60785f227ee74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/small/square.png using Guid(5c076e34c98f97c4a9b60785f227ee74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3845031ffeda8ae535feeb47050f30ea') in 0.106708 seconds
+  Time since last request: 782.541626 seconds.
+  path: Assets/art/boolets
+  artifactKey: Guid(aedc9c5e0ed17f942997a9c414f1a2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/boolets using Guid(aedc9c5e0ed17f942997a9c414f1a2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d5af1fbdbaed0a4388a339d2cdb61ec') in 0.004490 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/art/small/small walls.png
-  artifactKey: Guid(e3def913c8670924c93b5ae04bab30d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/small/small walls.png using Guid(e3def913c8670924c93b5ae04bab30d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae5eeeee5db387657d5804b299b2b0a') in 0.035653 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 231.767370 seconds.
-  path: Assets/art/rooms/small/pillars1 (1).png
-  artifactKey: Guid(fa4394f462b59124db93546e84aa3913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/rooms/small/pillars1 (1).png using Guid(fa4394f462b59124db93546e84aa3913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9afe9de914d712e270e9de1dbd6397c8') in 0.098778 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/art/rooms/small/smallroomconnected2.png
-  artifactKey: Guid(1cc584c5787ebf54c86cf48f5c6c4865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/rooms/small/smallroomconnected2.png using Guid(1cc584c5787ebf54c86cf48f5c6c4865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54c727017a92a880b5e4a63a2e71368') in 0.044601 seconds
+  Time since last request: 0.000042 seconds.
+  path: Assets/art/boolets/Bullet6Smg (1).png
+  artifactKey: Guid(c24902d54a515714da0213899fdfb66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/boolets/Bullet6Smg (1).png using Guid(c24902d54a515714da0213899fdfb66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02f771c9393d812e7c0d185c4eeb214') in 0.101203 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000034 seconds.
-  path: Assets/art/rooms/small/smallroomconnected5.png
-  artifactKey: Guid(ff25f26ff43abb444987e1d93ae8881f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/rooms/small/smallroomconnected5.png using Guid(ff25f26ff43abb444987e1d93ae8881f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2255d18b7f3897757eb806661ad15a70') in 0.037973 seconds
+  path: Assets/art/boolets/Bullet4Pistol (1).png
+  artifactKey: Guid(d8a55be285bc39d47b85ef116a814ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/boolets/Bullet4Pistol (1).png using Guid(d8a55be285bc39d47b85ef116a814ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ebf7509577772e80aa2ebbec1adb7a') in 0.031245 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000740 seconds.
-  path: Assets/art/rooms/small/square.png
-  artifactKey: Guid(b85ddc62752cc0040b7b8f1670608d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/rooms/small/square.png using Guid(b85ddc62752cc0040b7b8f1670608d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb8a36a4ab399659e96cff3101338059') in 0.032831 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/art/rooms/small/smallroomconnected4.png
-  artifactKey: Guid(6f8559c0770ad464fad144b5dc0a8414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/rooms/small/smallroomconnected4.png using Guid(6f8559c0770ad464fad144b5dc0a8414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41454b58d8e62fa89f38f636392e9498') in 0.035527 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Ryzen\Documents\GitHub\1BIT-Jam\1bit jam 2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Ryzen\Documents\GitHub\1BIT-Jam\1bit jam 2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.077 seconds
-Refreshing native plugins compatible for Editor in 14.04 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.296 seconds
-Domain Reload Profiling: 3362ms
-	BeginReloadAssembly (397ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (26ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (81ms)
-	RebuildCommonClasses (63ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (522ms)
-		LoadAssemblies (693ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (47ms)
-			TypeCache.Refresh (16ms)
-				TypeCache.ScanAssembly (2ms)
-			ScanForSourceGeneratedMonoScriptInfo (19ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (2297ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (930ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (52ms)
-			SetLoadedEditorAssemblies (8ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (149ms)
-			ProcessInitializeOnLoadAttributes (652ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
-			AfterProcessingInitializeOnLoad (21ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Refreshing native plugins compatible for Editor in 10.68 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4192 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 53 unused Assets / (1.4 MB). Loaded Objects now: 4700.
-Memory consumption went from 150.1 MB to 148.6 MB.
-Total: 7.276300 ms (FindLiveObjects: 0.515000 ms CreateObjectMapping: 0.285000 ms MarkObjects: 5.703100 ms  DeleteObjects: 0.771600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Assembly with name 'NavMeshPlus' already exists (Assets/NavMeshPlus-master/NavMeshComponents/Scripts/NavMeshComponents.asmdef)
-Assembly with name 'NavMeshPlus' already exists (Assets/NavMeshComponents/Scripts/NavMeshComponents.asmdef)
-Assembly with name 'NavMeshPlusEditor' already exists (Assets/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef)
-Assembly with name 'NavMeshPlusEditor' already exists (Assets/NavMeshPlus-master/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef)
-Assembly with name 'NavMeshPlus' already exists (Assets/NavMeshPlus-master/NavMeshComponents/Scripts/NavMeshComponents.asmdef)
-Assembly with name 'NavMeshPlus' already exists (Assets/NavMeshComponents/Scripts/NavMeshComponents.asmdef)
-Assembly with name 'NavMeshPlusEditor' already exists (Assets/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef)
-Assembly with name 'NavMeshPlusEditor' already exists (Assets/NavMeshPlus-master/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef)
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Ryzen\Documents\GitHub\1BIT-Jam\1bit jam 2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Ryzen\Documents\GitHub\1BIT-Jam\1bit jam 2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.856 seconds
-Refreshing native plugins compatible for Editor in 10.12 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Assembly with name 'NavMeshPlus' already exists (Assets/NavMeshPlus-master/NavMeshComponents/Scripts/NavMeshComponents.asmdef)
-Assembly with name 'NavMeshPlus' already exists (Assets/NavMeshComponents/Scripts/NavMeshComponents.asmdef)
-Assembly with name 'NavMeshPlusEditor' already exists (Assets/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef)
-Assembly with name 'NavMeshPlusEditor' already exists (Assets/NavMeshPlus-master/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.054 seconds
-Domain Reload Profiling: 2898ms
-	BeginReloadAssembly (238ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (50ms)
-	RebuildCommonClasses (55ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (61ms)
-	LoadAllAssembliesAndSetupDomain (474ms)
-		LoadAssemblies (564ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (38ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (15ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (2055ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (901ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (47ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (181ms)
-			ProcessInitializeOnLoadAttributes (601ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
-			AfterProcessingInitializeOnLoad (22ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Refreshing native plugins compatible for Editor in 10.18 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4193 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 53 unused Assets / (1.4 MB). Loaded Objects now: 4704.
-Memory consumption went from 151.1 MB to 149.6 MB.
-Total: 5.688400 ms (FindLiveObjects: 0.412200 ms CreateObjectMapping: 0.110800 ms MarkObjects: 4.683100 ms  DeleteObjects: 0.481200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Assembly with name 'NavMeshPlus' already exists (Assets/NavMeshPlus-master/NavMeshComponents/Scripts/NavMeshComponents.asmdef)
-Assembly with name 'NavMeshPlus' already exists (Assets/NavMeshComponents/Scripts/NavMeshComponents.asmdef)
-Assembly with name 'NavMeshPlusEditor' already exists (Assets/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef)
-Assembly with name 'NavMeshPlusEditor' already exists (Assets/NavMeshPlus-master/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef)
-Assembly with name 'NavMeshPlus' already exists (Assets/NavMeshPlus-master/NavMeshComponents/Scripts/NavMeshComponents.asmdef)
-Assembly with name 'NavMeshPlus' already exists (Assets/NavMeshComponents/Scripts/NavMeshComponents.asmdef)
-Assembly with name 'NavMeshPlusEditor' already exists (Assets/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef)
-Assembly with name 'NavMeshPlusEditor' already exists (Assets/NavMeshPlus-master/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef)
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Ryzen\Documents\GitHub\1BIT-Jam\1bit jam 2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Ryzen\Documents\GitHub\1BIT-Jam\1bit jam 2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.871 seconds
-Refreshing native plugins compatible for Editor in 10.15 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Assembly with name 'NavMeshPlus' already exists (Assets/NavMeshPlus-master/NavMeshComponents/Scripts/NavMeshComponents.asmdef)
-Assembly with name 'NavMeshPlus' already exists (Assets/NavMeshComponents/Scripts/NavMeshComponents.asmdef)
-Assembly with name 'NavMeshPlusEditor' already exists (Assets/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef)
-Assembly with name 'NavMeshPlusEditor' already exists (Assets/NavMeshPlus-master/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.048 seconds
-Domain Reload Profiling: 2907ms
-	BeginReloadAssembly (300ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (22ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (51ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (435ms)
-		LoadAssemblies (584ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (34ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (12ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (2049ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (889ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (43ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (184ms)
-			ProcessInitializeOnLoadAttributes (589ms)
-			ProcessInitializeOnLoadMethodAttributes (48ms)
-			AfterProcessingInitializeOnLoad (19ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Refreshing native plugins compatible for Editor in 9.02 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4193 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 53 unused Assets / (1.4 MB). Loaded Objects now: 4708.
-Memory consumption went from 150.5 MB to 149.1 MB.
-Total: 4.811000 ms (FindLiveObjects: 0.439500 ms CreateObjectMapping: 0.143800 ms MarkObjects: 3.747100 ms  DeleteObjects: 0.479000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Assembly with name 'NavMeshPlus' already exists (Assets/NavMeshPlus-master/NavMeshComponents/Scripts/NavMeshComponents.asmdef)
-Assembly with name 'NavMeshPlus' already exists (Assets/NavMeshComponents/Scripts/NavMeshComponents.asmdef)
-Assembly with name 'NavMeshPlusEditor' already exists (Assets/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef)
-Assembly with name 'NavMeshPlusEditor' already exists (Assets/NavMeshPlus-master/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef)
-Assembly with name 'NavMeshPlus' already exists (Assets/NavMeshPlus-master/NavMeshComponents/Scripts/NavMeshComponents.asmdef)
-Assembly with name 'NavMeshPlus' already exists (Assets/NavMeshComponents/Scripts/NavMeshComponents.asmdef)
-Assembly with name 'NavMeshPlusEditor' already exists (Assets/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef)
-Assembly with name 'NavMeshPlusEditor' already exists (Assets/NavMeshPlus-master/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef)
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Ryzen\Documents\GitHub\1BIT-Jam\1bit jam 2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Ryzen\Documents\GitHub\1BIT-Jam\1bit jam 2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.943 seconds
-Refreshing native plugins compatible for Editor in 9.73 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Assembly with name 'NavMeshPlus' already exists (Assets/NavMeshPlus-master/NavMeshComponents/Scripts/NavMeshComponents.asmdef)
-Assembly with name 'NavMeshPlus' already exists (Assets/NavMeshComponents/Scripts/NavMeshComponents.asmdef)
-Assembly with name 'NavMeshPlusEditor' already exists (Assets/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef)
-Assembly with name 'NavMeshPlusEditor' already exists (Assets/NavMeshPlus-master/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  8.705 seconds
-Domain Reload Profiling: 9636ms
-	BeginReloadAssembly (237ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (16ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (51ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (573ms)
-		LoadAssemblies (665ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (36ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (14ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (8706ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (884ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (43ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (163ms)
-			ProcessInitializeOnLoadAttributes (599ms)
-			ProcessInitializeOnLoadMethodAttributes (54ms)
-			AfterProcessingInitializeOnLoad (18ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: A operação de E/S foi cancelada devido a uma saída do módulo ou a um pedido da aplicação.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

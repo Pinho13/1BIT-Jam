@@ -15,7 +15,7 @@ C:/Users/Ryzen/Documents/GitHub/1BIT-Jam/1bit jam 2023
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-59871
+55122
 Successfully changed project path to: C:/Users/Ryzen/Documents/GitHub/1BIT-Jam/1bit jam 2023
 C:/Users/Ryzen/Documents/GitHub/1BIT-Jam/1bit jam 2023
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/Ryzen/Documents/GitHub/1BIT-Jam/1bit jam 2023
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [25624] Host "[IP] 25.56.220.80 [Port] 0 [Flags] 2 [Guid] 3713507001 [EditorId] 3713507001 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8UK00G8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [21612] Host "[IP] 25.56.220.80 [Port] 0 [Flags] 2 [Guid] 1404792545 [EditorId] 1404792545 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8UK00G8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [25624] Host "[IP] 25.56.220.80 [Port] 0 [Flags] 2 [Guid] 3713507001 [EditorId] 3713507001 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8UK00G8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21612] Host "[IP] 25.56.220.80 [Port] 0 [Flags] 2 [Guid] 1404792545 [EditorId] 1404792545 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8UK00G8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 25.50 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 25.23 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -69,49 +69,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.032651 seconds.
-- Loaded All Assemblies, in  0.629 seconds
+Registered in 0.028604 seconds.
+- Loaded All Assemblies, in  0.608 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 534 ms
+Android Extension - Scanning For ADB Devices 560 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.048 seconds
-Domain Reload Profiling: 1671ms
-	BeginReloadAssembly (192ms)
+- Finished resetting the current domain, in  1.062 seconds
+Domain Reload Profiling: 1665ms
+	BeginReloadAssembly (182ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (59ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (122ms)
-	LoadAllAssembliesAndSetupDomain (231ms)
-		LoadAssemblies (188ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (116ms)
+	LoadAllAssembliesAndSetupDomain (233ms)
+		LoadAssemblies (178ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (226ms)
-			TypeCache.Refresh (224ms)
+		AnalyzeDomain (228ms)
+			TypeCache.Refresh (227ms)
 				TypeCache.ScanAssembly (207ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1049ms)
+	FinalizeReload (1063ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (970ms)
+		SetupLoadedEditorAssemblies (967ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (727ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (755ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (158ms)
-			ProcessInitializeOnLoadMethodAttributes (76ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (137ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,158 +121,925 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Ryzen\Documents\GitHub\1BIT-Jam\1bit jam 2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Ryzen\Documents\GitHub\1BIT-Jam\1bit jam 2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.161 seconds
-Refreshing native plugins compatible for Editor in 10.34 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.156 seconds
+Refreshing native plugins compatible for Editor in 11.70 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.344 seconds
-Domain Reload Profiling: 2493ms
-	BeginReloadAssembly (248ms)
+- Finished resetting the current domain, in  1.288 seconds
+Domain Reload Profiling: 2431ms
+	BeginReloadAssembly (242ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (55ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (60ms)
 	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (81ms)
-	LoadAllAssembliesAndSetupDomain (747ms)
-		LoadAssemblies (609ms)
+	initialDomainReloadingComplete (82ms)
+	LoadAllAssembliesAndSetupDomain (741ms)
+		LoadAssemblies (594ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (291ms)
-			TypeCache.Refresh (245ms)
-				TypeCache.ScanAssembly (220ms)
-			ScanForSourceGeneratedMonoScriptInfo (35ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1345ms)
+		AnalyzeDomain (296ms)
+			TypeCache.Refresh (240ms)
+				TypeCache.ScanAssembly (215ms)
+			ScanForSourceGeneratedMonoScriptInfo (41ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1288ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (928ms)
+		SetupLoadedEditorAssemblies (1001ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (48ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (47ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (135ms)
-			ProcessInitializeOnLoadAttributes (664ms)
-			ProcessInitializeOnLoadMethodAttributes (56ms)
-			AfterProcessingInitializeOnLoad (20ms)
+			BeforeProcessingInitializeOnLoad (151ms)
+			ProcessInitializeOnLoadAttributes (706ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (26ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 10.98 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 12.16 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4198 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 81 unused Assets / (1.5 MB). Loaded Objects now: 4649.
-Memory consumption went from 160.7 MB to 159.3 MB.
-Total: 6.224700 ms (FindLiveObjects: 0.477200 ms CreateObjectMapping: 0.170100 ms MarkObjects: 4.881400 ms  DeleteObjects: 0.694000 ms)
+Unloading 4240 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (1.5 MB). Loaded Objects now: 4691.
+Memory consumption went from 161.6 MB to 160.2 MB.
+Total: 7.696500 ms (FindLiveObjects: 0.467600 ms CreateObjectMapping: 0.149500 ms MarkObjects: 6.241300 ms  DeleteObjects: 0.836600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/NavMeshSurface.cs: 1cd02bcdec9d22fff74c99422329f637 -> 8115f29c271cd45571ed95ae28923799
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/NavMeshModifierVolumeEditor.cs: 622ec72c0a35d25572f31abfc0389609 -> 4efcfae0490ed40c829d9b41b65c0d67
-  custom:scripting/monoscript/fileName/NavigationOverlay.cs: 2744f4e7946ebbb71339c9b1ce538d00 -> 
-  custom:scripting/monoscript/fileName/ConverterItemDescriptor.cs: 8182050d34c5cb602eb7913435a7abee -> 
-  custom:scripting/monoscript/fileName/BuiltInToNavMeshSurfaceConverterContainer.cs: c40a906f9f99ea8a6c5aaa215767017f -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/NavigationWindow.cs: 7884404b71178f59d8819c380b951d7c -> 
-  custom:scripting/monoscript/fileName/NavMeshComponentsGUIUtility.cs: 11ffd55d0363fe9fbf8861c5f5d81159 -> 77ae7a9bdc05bf28225c8494fcf123f9
-  custom:scripting/monoscript/fileName/ConverterItemInfo.cs: 9fb131dfa28a9ed6b6d00fd9cf83ece4 -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:scripting/monoscript/fileName/NavMeshAssetManager.cs: bd7c4cf8a75369fbc29df4c78587a37f -> 72dd8685487802f241e8befe273ef025
-  custom:scripting/monoscript/fileName/NavMeshSurfaceEditor.cs: 11952169e53ceb8fa77b721ac13bbc33 -> 6f51188356864b0e1d6e9b1039308846
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/NavMeshModifierVolume.cs: 0ce026f1094606c8a54952ab73721471 -> f7a6ba2c38ed91731a69e3c4a4be9002
-  custom:scripting/monoscript/fileName/NavMeshUpdaterUtility.cs: 5eb03802e6dba19b3e13aaf384805cac -> 
-  custom:scripting/monoscript/fileName/NavigationPreferences.cs: ada9399a4f085d4c824cc06527e7fcae -> 
-  custom:scripting/monoscript/fileName/NavMeshUpdaterEditor.cs: 169704080eda430978bba61ddedeb304 -> 
-  custom:scripting/monoscript/fileName/NavMeshModifierEditor.cs: f79c79b56d0f858fad111269f4df088d -> 88d1fe31235f85be2f618a1c808f65f0
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/HelpUrls.cs: c1a90585e3e9c9d25f58f9141655f24f -> 
-  custom:scripting/monoscript/fileName/EditorStyles.cs: 86b9f4d8fe570a8d8295bfc466c975cf -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:scripting/monoscript/fileName/NavMeshLinkEditor.cs: 00d457b4606b2a652687d158ff14d534 -> afb0348db22b55f23095f9cea8e364de
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/NavMeshModifier.cs: 08c148f5182ce13ca868880b0ccc03b9 -> 8892e93fe96bf0c5a5c519f467d2b1ca
-  custom:scripting/monoscript/fileName/NavMeshSceneConverter.cs: baf486a1c1cdf03a3111dd113d13c2f4 -> 
-  custom:scripting/monoscript/fileName/SystemConverterContainer.cs: eb4026ea01a117ce0888f693e9eed2cd -> 
-  custom:scripting/monoscript/fileName/NavMeshLink.cs: e14e05ace48bbb07a523202228054a2d -> f7e9d6596b10277e63f0d0278ea3aa47
-  custom:scripting/monoscript/fileName/ObsoleteNavigationWindowMenuEntry.cs: c7f73386e6473f401a8e4151cac4e1e5 -> 
-  custom:scripting/monoscript/fileName/InitializeConverterContext.cs: a97e19589a5774cdc2a34a28caea355f -> 
-  custom:scripting/monoscript/fileName/SystemConverter.cs: c748d1769fc66e95256254a1cc1497f3 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/RunItemContext.cs: 338b2243183036c2b60f94c1b5e817c5 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/SystemConvertersEditor.cs: c127c1335f24b77ca70195bf2136c6a2 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 20919.749073 seconds.
-  path: Assets/art/small/pillars1 (1).png
-  artifactKey: Guid(2521c578452c40f40b6d08fde484bbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/small/pillars1 (1).png using Guid(2521c578452c40f40b6d08fde484bbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29854512ec2e08f1d134987985e82a37') in 0.114061 seconds
+  Time since last request: 782.558497 seconds.
+  path: Assets/art/boolets/Bullet2shotgun (1).png
+  artifactKey: Guid(5198e056bb71bb544abb884b4d3e2fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/boolets/Bullet2shotgun (1).png using Guid(5198e056bb71bb544abb884b4d3e2fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb824089961b89901977575312e58216') in 0.112284 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 230.696686 seconds.
-  path: Assets/art/rooms
-  artifactKey: Guid(c0e31f3f6e7dc744fa166a7403c56ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/rooms using Guid(c0e31f3f6e7dc744fa166a7403c56ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3ad757c9c4ac86fce47aa6f5cc7732') in 0.000671 seconds
+  Time since last request: 0.000036 seconds.
+  path: Assets/art/boolets/Bullet2shotgun (2).png
+  artifactKey: Guid(1a6d15f42555e954db1d05c0fb9b6abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/boolets/Bullet2shotgun (2).png using Guid(1a6d15f42555e954db1d05c0fb9b6abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a7dd21b9a4f4252a6a10462a8121f4') in 0.032938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ryzen\Documents\GitHub\1BIT-Jam\1bit jam 2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ryzen\Documents\GitHub\1BIT-Jam\1bit jam 2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.983 seconds
+Refreshing native plugins compatible for Editor in 9.44 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  8.419 seconds
+Domain Reload Profiling: 9392ms
+	BeginReloadAssembly (252ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (583ms)
+		LoadAssemblies (697ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (36ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (8420ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (776ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (540ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 9.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4193 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (1.4 MB). Loaded Objects now: 4702.
+Memory consumption went from 150.0 MB to 148.5 MB.
+Total: 7.374100 ms (FindLiveObjects: 0.546000 ms CreateObjectMapping: 0.208800 ms MarkObjects: 5.933800 ms  DeleteObjects: 0.684200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ryzen\Documents\GitHub\1BIT-Jam\1bit jam 2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ryzen\Documents\GitHub\1BIT-Jam\1bit jam 2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.800 seconds
+Refreshing native plugins compatible for Editor in 11.45 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.780 seconds
+Domain Reload Profiling: 2568ms
+	BeginReloadAssembly (244ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (422ms)
+		LoadAssemblies (522ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (30ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1781ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (798ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (120ms)
+			ProcessInitializeOnLoadAttributes (562ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 9.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4194 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (1.4 MB). Loaded Objects now: 4706.
+Memory consumption went from 150.2 MB to 148.8 MB.
+Total: 5.596400 ms (FindLiveObjects: 0.416400 ms CreateObjectMapping: 0.106700 ms MarkObjects: 4.464000 ms  DeleteObjects: 0.608100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 706.282381 seconds.
+  path: Assets/ShotParticles 1.prefab
+  artifactKey: Guid(9071c6cac3ac5244e9c92fc460a9a51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShotParticles 1.prefab using Guid(9071c6cac3ac5244e9c92fc460a9a51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f01e866d67beea923703f5b1b8e008') in 0.090530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 6.402393 seconds.
+  path: Assets/BlackShotParticles 1.prefab
+  artifactKey: Guid(9071c6cac3ac5244e9c92fc460a9a51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackShotParticles 1.prefab using Guid(9071c6cac3ac5244e9c92fc460a9a51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9728d9265bb34ec9014f1b95e4e5ae') in 0.015952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 2.971211 seconds.
+  path: Assets/BlackShotParticles 1.prefab
+  artifactKey: Guid(9071c6cac3ac5244e9c92fc460a9a51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackShotParticles 1.prefab using Guid(9071c6cac3ac5244e9c92fc460a9a51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd825d601b48aba7d7f0fbf0cab497b7f') in 0.012796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 7.316256 seconds.
+  path: Assets/BlackShotParticles 1.prefab
+  artifactKey: Guid(9071c6cac3ac5244e9c92fc460a9a51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackShotParticles 1.prefab using Guid(9071c6cac3ac5244e9c92fc460a9a51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab39e19dd61318d6fc62fee4e097a66') in 0.014706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 3.823992 seconds.
+  path: Assets/BlackShotParticles 1.prefab
+  artifactKey: Guid(9071c6cac3ac5244e9c92fc460a9a51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackShotParticles 1.prefab using Guid(9071c6cac3ac5244e9c92fc460a9a51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95fe62322ccd56b837ee9733181b6b3a') in 0.013244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 179.488290 seconds.
+  path: Assets/Particles
+  artifactKey: Guid(1e205369ac74021428566faee57263c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particles using Guid(1e205369ac74021428566faee57263c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0391e10aa55a0bac0a702f6b43df237') in 0.000595 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.967138 seconds.
-  path: Assets/art/rooms/small
-  artifactKey: Guid(db4cd46a13f8c474d909dd6882df63d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/rooms/small using Guid(db4cd46a13f8c474d909dd6882df63d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cef1ab78a01e9d22a79afe44d9f2c27') in 0.000582 seconds
+  Time since last request: 11.964600 seconds.
+  path: Assets/Bullets
+  artifactKey: Guid(61c7c85ad7b79fb43884b4dc72ff4434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets using Guid(61c7c85ad7b79fb43884b4dc72ff4434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fbb10f81866ec0b0935b6d6003e1823') in 0.000568 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.084972 seconds.
-  path: Assets/art/rooms/small/pillars1.png
-  artifactKey: Guid(53b5372dddfdcb84fbb9a3a09f543193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/rooms/small/pillars1.png using Guid(53b5372dddfdcb84fbb9a3a09f543193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48da170aed3214a641c6fa973fc5dd71') in 0.075026 seconds
+  Time since last request: 4.346969 seconds.
+  path: Assets/Bullets/WhiteShotgun.prefab
+  artifactKey: Guid(9333485a1278f2848ae604f74687c77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/WhiteShotgun.prefab using Guid(9333485a1278f2848ae604f74687c77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bfc9e449346bf2cb277897508c7a851') in 0.029460 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 15
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001008 seconds.
-  path: Assets/art/rooms/small/small room walls.png
-  artifactKey: Guid(e91fc3cef91384244a96eef4a37f8502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/rooms/small/small room walls.png using Guid(e91fc3cef91384244a96eef4a37f8502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '290f91dfaca8b310dbf205dec48b0ec0') in 0.065269 seconds
+  Time since last request: 0.024005 seconds.
+  path: Assets/Bullets/BlackPistol.prefab
+  artifactKey: Guid(e5c0af8e926153c4785e334a20b9c355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/BlackPistol.prefab using Guid(e5c0af8e926153c4785e334a20b9c355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656aa9fb1204b5dc78e5b5a357f84122') in 0.029533 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 15
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000850 seconds.
-  path: Assets/art/rooms/small/smallroomconnected3.png
-  artifactKey: Guid(a00e874e9e90d5441af6190e82c48495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/rooms/small/smallroomconnected3.png using Guid(a00e874e9e90d5441af6190e82c48495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca29481eb4cc0cc7fc04419351001f9') in 0.038010 seconds
+  Time since last request: 0.010232 seconds.
+  path: Assets/Bullets/WhitePistol.prefab
+  artifactKey: Guid(15e8d4552f516df43a3ade427191b087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/WhitePistol.prefab using Guid(15e8d4552f516df43a3ade427191b087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceddc8544dae3731a90c8bb0b5b54524') in 0.037934 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 15
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/art/rooms/small/smallroomconnected1.png
-  artifactKey: Guid(c4b50df5a197dd541bc5ad1e80cb52aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/rooms/small/smallroomconnected1.png using Guid(c4b50df5a197dd541bc5ad1e80cb52aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc79ebf3b24a96c38378e70c7a92d45') in 0.034479 seconds
+  Time since last request: 0.000033 seconds.
+  path: Assets/Bullets/WhiteSmg.prefab
+  artifactKey: Guid(7fcbfafc81f52c74b92a409850132d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/WhiteSmg.prefab using Guid(7fcbfafc81f52c74b92a409850132d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2be5ecd5afd652d051e3cf0c8498e92') in 0.024157 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 15
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/art/rooms/small/small walls.png
-  artifactKey: Guid(cb91ad8959d6d4d42a45b7b90d4a004b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/rooms/small/small walls.png using Guid(cb91ad8959d6d4d42a45b7b90d4a004b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1e03147bcb953a20f0756ea362eebc') in 0.033307 seconds
+  Time since last request: 0.000030 seconds.
+  path: Assets/Bullets/BlackSmg.prefab
+  artifactKey: Guid(28e8726106c1b3046aaa21dd2c2491e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/BlackSmg.prefab using Guid(28e8726106c1b3046aaa21dd2c2491e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90512674efba3a23b37df8ca5ecae3e8') in 0.022189 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 45.009659 seconds.
+  path: Assets/Bullets/BlackPistol.prefab
+  artifactKey: Guid(e5c0af8e926153c4785e334a20b9c355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/BlackPistol.prefab using Guid(e5c0af8e926153c4785e334a20b9c355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172d8df8ef58f98b5b2690a12773b45a') in 0.016245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Bullets/WhitePistol.prefab
+  artifactKey: Guid(15e8d4552f516df43a3ade427191b087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/WhitePistol.prefab using Guid(15e8d4552f516df43a3ade427191b087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772c5c11b93fb7dcd4a98f59b680632e') in 0.016317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 9.316977 seconds.
+  path: Assets/Bullets/WhiteSmg.prefab
+  artifactKey: Guid(7fcbfafc81f52c74b92a409850132d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/WhiteSmg.prefab using Guid(7fcbfafc81f52c74b92a409850132d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb77b902ce0f489d3dcaa88f2f82dc66') in 0.016672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 24.753112 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8756f7c291147a75e95d0f4a0d9e7e56') in 0.062910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 1.463993 seconds.
+  path: Assets/Bullets/WhiteSmg.prefab
+  artifactKey: Guid(7fcbfafc81f52c74b92a409850132d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/WhiteSmg.prefab using Guid(7fcbfafc81f52c74b92a409850132d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac01af737eeccc5b0485d7d5c9fe873f') in 0.014880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 2.418486 seconds.
+  path: Assets/Bullets/WhiteSmg.prefab
+  artifactKey: Guid(7fcbfafc81f52c74b92a409850132d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/WhiteSmg.prefab using Guid(7fcbfafc81f52c74b92a409850132d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7023c2c0eafaaa6830de7c9118b4034f') in 0.013407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 5.730792 seconds.
+  path: Assets/Bullets/WhiteSmg.prefab
+  artifactKey: Guid(7fcbfafc81f52c74b92a409850132d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/WhiteSmg.prefab using Guid(7fcbfafc81f52c74b92a409850132d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428bb93611184d1da186c361a2e296df') in 0.020185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 15.198470 seconds.
+  path: Assets/Bullets/WhiteSmg.prefab
+  artifactKey: Guid(7fcbfafc81f52c74b92a409850132d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/WhiteSmg.prefab using Guid(7fcbfafc81f52c74b92a409850132d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5819995bac1b7ded1e0b515734676739') in 0.012759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.016341 seconds.
+  path: Assets/Bullets/BlackPistol.prefab
+  artifactKey: Guid(e5c0af8e926153c4785e334a20b9c355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/BlackPistol.prefab using Guid(e5c0af8e926153c4785e334a20b9c355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79221e6b49dc9df1c5d86fb18263032e') in 0.021060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Bullets/WhiteShotgun.prefab
+  artifactKey: Guid(9333485a1278f2848ae604f74687c77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/WhiteShotgun.prefab using Guid(9333485a1278f2848ae604f74687c77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5725e7c611faa8464614e8192ec2925') in 0.013957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 10.999647 seconds.
+  path: Assets/Bullets/WhiteSmg.prefab
+  artifactKey: Guid(7fcbfafc81f52c74b92a409850132d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/WhiteSmg.prefab using Guid(7fcbfafc81f52c74b92a409850132d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed32f29f4641035616218aaa8ea8cfc8') in 0.017565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 4.410209 seconds.
+  path: Assets/Bullets/WhiteSmg.prefab
+  artifactKey: Guid(7fcbfafc81f52c74b92a409850132d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/WhiteSmg.prefab using Guid(7fcbfafc81f52c74b92a409850132d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '291c9b118d5e6c8fb19397eed5cf4c25') in 0.017833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 3.619810 seconds.
+  path: Assets/Bullets/WhiteSmg.prefab
+  artifactKey: Guid(7fcbfafc81f52c74b92a409850132d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/WhiteSmg.prefab using Guid(7fcbfafc81f52c74b92a409850132d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc6542305efe931d6f2c824975c50a1e') in 0.014150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 3.302305 seconds.
+  path: Assets/Bullets/WhiteSmg.prefab
+  artifactKey: Guid(7fcbfafc81f52c74b92a409850132d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/WhiteSmg.prefab using Guid(7fcbfafc81f52c74b92a409850132d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ae1b007b2cafc5f38b7869d5593399') in 0.015886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 2.442701 seconds.
+  path: Assets/Bullets/WhiteSmg.prefab
+  artifactKey: Guid(7fcbfafc81f52c74b92a409850132d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/WhiteSmg.prefab using Guid(7fcbfafc81f52c74b92a409850132d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f382beab2140ca33cbc80d1fbafb710a') in 0.018483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 1.457971 seconds.
+  path: Assets/Bullets/WhiteSmg.prefab
+  artifactKey: Guid(7fcbfafc81f52c74b92a409850132d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/WhiteSmg.prefab using Guid(7fcbfafc81f52c74b92a409850132d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb080b7cec21fccf3a13e6d466183873') in 0.018229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 1.992746 seconds.
+  path: Assets/Bullets/WhiteSmg.prefab
+  artifactKey: Guid(7fcbfafc81f52c74b92a409850132d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/WhiteSmg.prefab using Guid(7fcbfafc81f52c74b92a409850132d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae821166b13c41463899bc083a305e0') in 0.014906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 9.130048 seconds.
+  path: Assets/Bullets/WhiteSmg.prefab
+  artifactKey: Guid(7fcbfafc81f52c74b92a409850132d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/WhiteSmg.prefab using Guid(7fcbfafc81f52c74b92a409850132d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '944536f92279b022f4be685f4e4f02f6') in 0.015506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 5.717718 seconds.
+  path: Assets/Bullets/WhiteSmg.prefab
+  artifactKey: Guid(7fcbfafc81f52c74b92a409850132d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/WhiteSmg.prefab using Guid(7fcbfafc81f52c74b92a409850132d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3726469e8586c0292bec3d9ffcdb27dc') in 0.018564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 45.200851 seconds.
+  path: Assets/Bullets/BlackSmg.prefab
+  artifactKey: Guid(28e8726106c1b3046aaa21dd2c2491e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/BlackSmg.prefab using Guid(28e8726106c1b3046aaa21dd2c2491e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3ed4bd5918ae584a9881939192c178') in 0.016532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 9.700900 seconds.
+  path: Assets/Bullets/BlackSmg.prefab
+  artifactKey: Guid(28e8726106c1b3046aaa21dd2c2491e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/BlackSmg.prefab using Guid(28e8726106c1b3046aaa21dd2c2491e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235dabfb19051189b8635ecf50c79c07') in 0.012955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 4.243618 seconds.
+  path: Assets/Bullets/BlackSmg.prefab
+  artifactKey: Guid(28e8726106c1b3046aaa21dd2c2491e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/BlackSmg.prefab using Guid(28e8726106c1b3046aaa21dd2c2491e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0cfd770d705e17acd7cdc70d9d99f4') in 0.013887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 2.850134 seconds.
+  path: Assets/Bullets/BlackSmg.prefab
+  artifactKey: Guid(28e8726106c1b3046aaa21dd2c2491e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/BlackSmg.prefab using Guid(28e8726106c1b3046aaa21dd2c2491e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e12edb53e2ceead31cbff144b3cc86') in 0.013933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 11.270281 seconds.
+  path: Assets/Bullets/WhitePistol.prefab
+  artifactKey: Guid(15e8d4552f516df43a3ade427191b087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/WhitePistol.prefab using Guid(15e8d4552f516df43a3ade427191b087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d46bf23d14916c00ce1e7f15f0fa1d') in 0.015979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 4.230382 seconds.
+  path: Assets/Bullets/WhitePistol.prefab
+  artifactKey: Guid(15e8d4552f516df43a3ade427191b087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/WhitePistol.prefab using Guid(15e8d4552f516df43a3ade427191b087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc9ea56970e724c147f46a46f030cf8') in 0.015892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 5.272521 seconds.
+  path: Assets/Bullets/WhitePistol.prefab
+  artifactKey: Guid(15e8d4552f516df43a3ade427191b087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/WhitePistol.prefab using Guid(15e8d4552f516df43a3ade427191b087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c40de11896b464c6d76252dee9310d') in 0.013854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 10.747341 seconds.
+  path: Assets/Bullets/WhitePistol.prefab
+  artifactKey: Guid(15e8d4552f516df43a3ade427191b087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/WhitePistol.prefab using Guid(15e8d4552f516df43a3ade427191b087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d1dedb8a011e480d4a303a3f718a90e') in 0.019188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 17.447964 seconds.
+  path: Assets/Bullets/WhitePistol.prefab
+  artifactKey: Guid(15e8d4552f516df43a3ade427191b087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/WhitePistol.prefab using Guid(15e8d4552f516df43a3ade427191b087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6fec4e2067b56f48ac90df24b50797e') in 0.016637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 10.410634 seconds.
+  path: Assets/Bullets/BlackPistol.prefab
+  artifactKey: Guid(e5c0af8e926153c4785e334a20b9c355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/BlackPistol.prefab using Guid(e5c0af8e926153c4785e334a20b9c355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670d5c6bc1a4ce6e1d25947c9c24d32c') in 0.014112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 7.074885 seconds.
+  path: Assets/Bullets/BlackPistol.prefab
+  artifactKey: Guid(e5c0af8e926153c4785e334a20b9c355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/BlackPistol.prefab using Guid(e5c0af8e926153c4785e334a20b9c355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0abff4711121c9b8013b0220cdfedfa') in 0.017714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 3.036493 seconds.
+  path: Assets/Bullets/BlackPistol.prefab
+  artifactKey: Guid(e5c0af8e926153c4785e334a20b9c355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/BlackPistol.prefab using Guid(e5c0af8e926153c4785e334a20b9c355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8539c6fbefe516fb1ad97220f50ae9') in 0.015406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 16.574728 seconds.
+  path: Assets/Bullets/WhiteShotgun.prefab
+  artifactKey: Guid(9333485a1278f2848ae604f74687c77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/WhiteShotgun.prefab using Guid(9333485a1278f2848ae604f74687c77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4efa398e5ebc27d6dbeabfff12f888a2') in 0.014292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 4.826349 seconds.
+  path: Assets/Bullets/WhiteShotgun.prefab
+  artifactKey: Guid(9333485a1278f2848ae604f74687c77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/WhiteShotgun.prefab using Guid(9333485a1278f2848ae604f74687c77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb78451091db0333bf019db644d1a446') in 0.067948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 12.849603 seconds.
+  path: Assets/Bullets/BlackPistol.prefab
+  artifactKey: Guid(e5c0af8e926153c4785e334a20b9c355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/BlackPistol.prefab using Guid(e5c0af8e926153c4785e334a20b9c355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b2802eb4ee06f95a9608f4289dba65') in 0.015729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 5.166011 seconds.
+  path: Assets/Bullets/WhiteShotgun.prefab
+  artifactKey: Guid(9333485a1278f2848ae604f74687c77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/WhiteShotgun.prefab using Guid(9333485a1278f2848ae604f74687c77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a69be717eaae37fb89f7c5aafc2a0b') in 0.013462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 6.941041 seconds.
+  path: Assets/Bullets/WhiteShotgun.prefab
+  artifactKey: Guid(9333485a1278f2848ae604f74687c77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/WhiteShotgun.prefab using Guid(9333485a1278f2848ae604f74687c77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817561b8ac49d00fc5b0961b5c78a88b') in 0.017366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 19.005130 seconds.
+  path: Assets/Bullets/BlackShotgun.prefab
+  artifactKey: Guid(5c5f2ac1845e71d49b2c5c6b98222bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/BlackShotgun.prefab using Guid(5c5f2ac1845e71d49b2c5c6b98222bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895764685484391d3403e94b7cee5227') in 0.014085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 3.215357 seconds.
+  path: Assets/Bullets/BlackShotgun.prefab
+  artifactKey: Guid(5c5f2ac1845e71d49b2c5c6b98222bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/BlackShotgun.prefab using Guid(5c5f2ac1845e71d49b2c5c6b98222bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2012b6eed6e4d39bc02cba4e07c260ce') in 0.017700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 3.082429 seconds.
+  path: Assets/Bullets/BlackShotgun.prefab
+  artifactKey: Guid(5c5f2ac1845e71d49b2c5c6b98222bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/BlackShotgun.prefab using Guid(5c5f2ac1845e71d49b2c5c6b98222bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a35a4223de7af4598667f7bc7319c932') in 0.016163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ryzen\Documents\GitHub\1BIT-Jam\1bit jam 2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ryzen\Documents\GitHub\1BIT-Jam\1bit jam 2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.172 seconds
+Refreshing native plugins compatible for Editor in 13.85 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.442 seconds
+Domain Reload Profiling: 3598ms
+	BeginReloadAssembly (316ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (33ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (689ms)
+		LoadAssemblies (832ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (2443ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1027ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (56ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (158ms)
+			ProcessInitializeOnLoadAttributes (722ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (23ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 13.31 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4193 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (1.4 MB). Loaded Objects now: 4752.
+Memory consumption went from 150.4 MB to 148.9 MB.
+Total: 6.676700 ms (FindLiveObjects: 0.497000 ms CreateObjectMapping: 0.197500 ms MarkObjects: 5.363300 ms  DeleteObjects: 0.617000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ryzen\Documents\GitHub\1BIT-Jam\1bit jam 2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ryzen\Documents\GitHub\1BIT-Jam\1bit jam 2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.800 seconds
+Refreshing native plugins compatible for Editor in 11.43 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.241 seconds
+Domain Reload Profiling: 3030ms
+	BeginReloadAssembly (250ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (408ms)
+		LoadAssemblies (525ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (2242ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (959ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (53ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (152ms)
+			ProcessInitializeOnLoadAttributes (671ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (23ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 12.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4194 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (1.4 MB). Loaded Objects now: 4756.
+Memory consumption went from 150.6 MB to 149.2 MB.
+Total: 5.880100 ms (FindLiveObjects: 0.465500 ms CreateObjectMapping: 0.164900 ms MarkObjects: 4.632300 ms  DeleteObjects: 0.616300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 134.731652 seconds.
+  path: Assets/Bullets/BlackPistol.prefab
+  artifactKey: Guid(e5c0af8e926153c4785e334a20b9c355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/BlackPistol.prefab using Guid(e5c0af8e926153c4785e334a20b9c355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62da7e049f0644658b76b33bfc977053') in 0.091788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 1.093000 seconds.
+  path: Assets/Bullets/BlackPistol.prefab
+  artifactKey: Guid(e5c0af8e926153c4785e334a20b9c355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/BlackPistol.prefab using Guid(e5c0af8e926153c4785e334a20b9c355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d72f83dde46bca7f3b4aef2d1cc62fa') in 0.014984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.013802 seconds.
+  path: Assets/Bullets/WhitePistol.prefab
+  artifactKey: Guid(15e8d4552f516df43a3ade427191b087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/WhitePistol.prefab using Guid(15e8d4552f516df43a3ade427191b087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b0c86339ca318e1ef39fd2ee6c890d') in 0.017052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Bullets/WhiteSmg.prefab
+  artifactKey: Guid(7fcbfafc81f52c74b92a409850132d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/WhiteSmg.prefab using Guid(7fcbfafc81f52c74b92a409850132d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c80eef34391abc574b77a080cd97285') in 0.015110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Bullets/BlackSmg.prefab
+  artifactKey: Guid(28e8726106c1b3046aaa21dd2c2491e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/BlackSmg.prefab using Guid(28e8726106c1b3046aaa21dd2c2491e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573694a5a531f348bdbea5814a15ac4f') in 0.015882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Bullets/WhiteShotgun.prefab
+  artifactKey: Guid(9333485a1278f2848ae604f74687c77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/WhiteShotgun.prefab using Guid(9333485a1278f2848ae604f74687c77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20150f50ae49cd769971cda1091d47e') in 0.019077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 54.865880 seconds.
+  path: Assets/Bullets/BlackShotgun.prefab
+  artifactKey: Guid(5c5f2ac1845e71d49b2c5c6b98222bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/BlackShotgun.prefab using Guid(5c5f2ac1845e71d49b2c5c6b98222bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fea0b7e2542ff2130f8162f90b34e1d') in 0.015551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Bullets/WhiteSmg.prefab
+  artifactKey: Guid(7fcbfafc81f52c74b92a409850132d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/WhiteSmg.prefab using Guid(7fcbfafc81f52c74b92a409850132d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d4dddbc3ab84872983ca71f0549f3f') in 0.014835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Bullets/WhiteShotgun.prefab
+  artifactKey: Guid(9333485a1278f2848ae604f74687c77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/WhiteShotgun.prefab using Guid(9333485a1278f2848ae604f74687c77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8809cc5636496a311a577ebf04b483de') in 0.015206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 4.001929 seconds.
+  path: Assets/Bullets/BlackShotgun.prefab
+  artifactKey: Guid(5c5f2ac1845e71d49b2c5c6b98222bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/BlackShotgun.prefab using Guid(5c5f2ac1845e71d49b2c5c6b98222bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a48914236a46bd4250019492ac8069') in 0.014841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Bullets/WhitePistol.prefab
+  artifactKey: Guid(15e8d4552f516df43a3ade427191b087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/WhitePistol.prefab using Guid(15e8d4552f516df43a3ade427191b087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b613970dee7f4341a4e9e011f2a4ad0') in 0.017084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 8.780965 seconds.
+  path: Assets/Bullets/BlackShotgun.prefab
+  artifactKey: Guid(5c5f2ac1845e71d49b2c5c6b98222bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/BlackShotgun.prefab using Guid(5c5f2ac1845e71d49b2c5c6b98222bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5881ffec9aef0d89f60b3a4bb9f00ba8') in 0.016579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Bullets/WhiteShotgun.prefab
+  artifactKey: Guid(9333485a1278f2848ae604f74687c77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullets/WhiteShotgun.prefab using Guid(9333485a1278f2848ae604f74687c77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c98791609683b45127fe23d0da1cab82') in 0.014802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ryzen\Documents\GitHub\1BIT-Jam\1bit jam 2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ryzen\Documents\GitHub\1BIT-Jam\1bit jam 2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.882 seconds
+Refreshing native plugins compatible for Editor in 12.06 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.280 seconds
+Domain Reload Profiling: 3149ms
+	BeginReloadAssembly (268ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (463ms)
+		LoadAssemblies (587ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (2281ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1009ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (55ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (161ms)
+			ProcessInitializeOnLoadAttributes (699ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (24ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 12.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4193 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (1.4 MB). Loaded Objects now: 4760.
+Memory consumption went from 150.4 MB to 148.9 MB.
+Total: 6.980100 ms (FindLiveObjects: 0.421200 ms CreateObjectMapping: 0.214000 ms MarkObjects: 5.537900 ms  DeleteObjects: 0.805600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: A operação de E/S foi cancelada devido a uma saída do módulo ou a um pedido da aplicação.
 AssetImportWorker is now disconnected from the server

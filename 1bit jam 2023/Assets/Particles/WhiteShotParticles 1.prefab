@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1928654328445690040}
   - component: {fileID: 6229360710363777588}
   m_Layer: 0
-  m_Name: ShotParticles
+  m_Name: WhiteShotParticles 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -116,7 +116,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.5
+      scalar: 0.1
       minScalar: 5
       maxCurve:
         serializedVersion: 2

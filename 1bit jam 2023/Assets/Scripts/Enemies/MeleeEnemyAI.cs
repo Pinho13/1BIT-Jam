@@ -11,18 +11,18 @@ public class MeleeEnemyAI : MonoBehaviour
     public bool following;
 
     [Header("Enemy Stats")]
-    [SerializeField] float MaxHealth;
-    [SerializeField] float currentHealth;
+    [SerializeField]float Damage;
+    [SerializeField]float knockback;
 
     [Header("References")]
-    Transform playerPos;
+    GameObject playerPos;
     NavMeshAgent agent;
     Animator anim;
 
 
     void Start()
     {
-        playerPos = GameObject.FindGameObjectWithTag("Player").transform;
+        playerPos = GameObject.FindGameObjectWithTag("Player");
         agent = GetComponent<NavMeshAgent>();
         anim = GetComponent<Animator>();
         agent.updateRotation = false;
@@ -41,9 +41,10 @@ public class MeleeEnemyAI : MonoBehaviour
         if(following)
         {
             anim.SetBool("Atacking", false);
-            agent.SetDestination(playerPos.position);
+            agent.SetDestination(playerPos.transform.position);
             anim.SetBool("Walking", true);
         }
+
         if (!agent.pathPending)
         {
             if (agent.remainingDistance <= agent.stoppingDistance)
@@ -65,9 +66,16 @@ public class MeleeEnemyAI : MonoBehaviour
 
     void LookWhereItsGoing()
     {
-        var lookPos = playerPos.position - transform.position;
+        var lookPos = playerPos.transform.position - transform.position;
         float angle = Mathf.Atan2(lookPos.y, lookPos.x) * Mathf.Rad2Deg;
         Quaternion rotation = Quaternion.AngleAxis(angle, Vector3.forward);
         transform.rotation = rotation;
     }
+
+    void HitOpponent()
+    {
+        playerPos.GetComponent<PlayerHealth>().currentHealth -= Damage;
+        playerPos.GetComponent<Rigidbody2D>().AddForce((playerPos.transform.position - transform.position).normalized * knockback, ForceMode2D.Impulse);
+    }
+
 }
