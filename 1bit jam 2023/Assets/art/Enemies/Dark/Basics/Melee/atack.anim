@@ -99,6 +99,9 @@ AnimationClip:
 =======
   - time: 0.41666666
 >>>>>>> parent of 787757d (Save before working on other enemies)
+=======
+  - time: 0.41666666
+>>>>>>> parent of 787757d (Save before working on other enemies)
     functionName: HitOpponent
     data: 
     objectReferenceParameter: {fileID: 0}
