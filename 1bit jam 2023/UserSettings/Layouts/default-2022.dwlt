@@ -19,10 +19,8 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
   m_Title: Hierarchy
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 300}
   m_MinSize: {x: 875, y: 321}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
@@ -178,7 +176,6 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 45
   controlID: 44
 --- !u!114 &8
 MonoBehaviour:
@@ -204,7 +201,6 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 46
   controlID: 45
 --- !u!114 &9
 MonoBehaviour:
@@ -293,7 +289,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
   m_Name: AnimationWindow
   m_EditorClassIdentifier: 
   m_Children: []
@@ -314,12 +309,9 @@ MonoBehaviour:
   m_ActualView: {fileID: 19}
 >>>>>>> parent of 787757d (Save before working on other enemies)
   m_Panes:
-  - {fileID: 13}
   - {fileID: 17}
   - {fileID: 18}
   - {fileID: 19}
-  m_Selected: 0
-  m_LastSelected: 1
   m_Selected: 2
   m_LastSelected: 0
 --- !u!114 &12
@@ -1040,7 +1032,6 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &16
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1186,7 +1177,6 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
@@ -1235,7 +1225,6 @@ MonoBehaviour:
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &17
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1288,17 +1277,13 @@ MonoBehaviour:
     - {fileID: -8499343637286364293, guid: 4c5c0e9ef7d1a054fbba6b36829e21cf, type: 2}
 >>>>>>> parent of 787757d (Save before working on other enemies)
     m_ValueSerializationHelper:
-    - e00: 0.67368424
     - e00: 0.7957895
       e01: 0
       e02: 0
-      e03: -18.684235
       e03: -24.78949
       e10: 0
-      e11: 0.67368424
       e11: 0.7957895
       e12: 0
-      e13: 141.36841
       e13: 117.778946
       e20: 0
       e21: 0
