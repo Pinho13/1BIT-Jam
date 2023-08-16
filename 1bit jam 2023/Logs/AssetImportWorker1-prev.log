@@ -16,7 +16,11 @@ C:/Users/Ryzen/Documents/GitHub/1BIT-Jam/1bit jam 2023
 Logs/AssetImportWorker1.log
 -srvPort
 <<<<<<< HEAD
+<<<<<<< HEAD
 53152
+=======
+52963
+>>>>>>> parent of 787757d (Save before working on other enemies)
 =======
 52963
 >>>>>>> parent of 787757d (Save before working on other enemies)
@@ -54,11 +58,19 @@ C:/Users/Ryzen/Documents/GitHub/1BIT-Jam/1bit jam 2023
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
 <<<<<<< HEAD
+<<<<<<< HEAD
 Player connection [20168] Host "[IP] 25.56.220.80 [Port] 0 [Flags] 2 [Guid] 183703346 [EditorId] 183703346 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8UK00G8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [20168] Host "[IP] 25.56.220.80 [Port] 0 [Flags] 2 [Guid] 183703346 [EditorId] 183703346 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8UK00G8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 Refreshing native plugins compatible for Editor in 23.99 ms, found 4 plugins.
+=======
+Player connection [15668] Host "[IP] 25.56.220.80 [Port] 0 [Flags] 2 [Guid] 3789954332 [EditorId] 3789954332 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8UK00G8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [15668] Host "[IP] 25.56.220.80 [Port] 0 [Flags] 2 [Guid] 3789954332 [EditorId] 3789954332 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8UK00G8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 21.60 ms, found 4 plugins.
+>>>>>>> parent of 787757d (Save before working on other enemies)
 =======
 Player connection [15668] Host "[IP] 25.56.220.80 [Port] 0 [Flags] 2 [Guid] 3789954332 [EditorId] 3789954332 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8UK00G8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
@@ -82,7 +94,11 @@ Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Managed
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
 <<<<<<< HEAD
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
+>>>>>>> parent of 787757d (Save before working on other enemies)
 =======
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
 >>>>>>> parent of 787757d (Save before working on other enemies)
@@ -91,6 +107,7 @@ Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< HEAD
 <<<<<<< HEAD
 Registered in 0.029741 seconds.
 - Loaded All Assemblies, in  0.597 seconds
@@ -114,11 +131,24 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling: 2422ms
 	BeginReloadAssembly (243ms)
 >>>>>>> parent of 787757d (Save before working on other enemies)
+=======
+Registered in 0.051012 seconds.
+- Loaded All Assemblies, in  1.246 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 610 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.185 seconds
+Domain Reload Profiling: 2422ms
+	BeginReloadAssembly (243ms)
+>>>>>>> parent of 787757d (Save before working on other enemies)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 	RebuildCommonClasses (55ms)
 	RebuildNativeTypeToScriptingClass (17ms)
@@ -159,12 +189,33 @@ Domain Reload Profiling: 2422ms
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (1070ms)
 			LogAssemblyErrors (0ms)
+=======
+	RebuildCommonClasses (337ms)
+	RebuildNativeTypeToScriptingClass (49ms)
+	initialDomainReloadingComplete (231ms)
+	LoadAllAssembliesAndSetupDomain (377ms)
+		LoadAssemblies (239ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (370ms)
+			TypeCache.Refresh (367ms)
+				TypeCache.ScanAssembly (341ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1186ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1070ms)
+			LogAssemblyErrors (0ms)
+>>>>>>> parent of 787757d (Save before working on other enemies)
 			InitializePlatformSupportModulesInManaged (837ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
 			ProcessInitializeOnLoadAttributes (151ms)
 			ProcessInitializeOnLoadMethodAttributes (73ms)
+<<<<<<< HEAD
+>>>>>>> parent of 787757d (Save before working on other enemies)
+=======
 >>>>>>> parent of 787757d (Save before working on other enemies)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -176,8 +227,13 @@ Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Ryzen\Documents\GitHub\1BIT-Jam\1bit jam 2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Ryzen\Documents\GitHub\1BIT-Jam\1bit jam 2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Loaded All Assemblies, in  1.072 seconds
 Refreshing native plugins compatible for Editor in 10.50 ms, found 4 plugins.
+=======
+- Loaded All Assemblies, in  1.060 seconds
+Refreshing native plugins compatible for Editor in 10.43 ms, found 4 plugins.
+>>>>>>> parent of 787757d (Save before working on other enemies)
 =======
 - Loaded All Assemblies, in  1.060 seconds
 Refreshing native plugins compatible for Editor in 10.43 ms, found 4 plugins.
@@ -187,9 +243,15 @@ Native extension for Android target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Finished resetting the current domain, in  1.202 seconds
 Domain Reload Profiling: 2262ms
 	BeginReloadAssembly (240ms)
+=======
+- Finished resetting the current domain, in  1.158 seconds
+Domain Reload Profiling: 2209ms
+	BeginReloadAssembly (236ms)
+>>>>>>> parent of 787757d (Save before working on other enemies)
 =======
 - Finished resetting the current domain, in  1.158 seconds
 Domain Reload Profiling: 2209ms
@@ -199,6 +261,7 @@ Domain Reload Profiling: 2209ms
 		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 		CreateAndSetChildDomain (31ms)
 	RebuildCommonClasses (55ms)
@@ -349,6 +412,28 @@ Total: 6.342100 ms (FindLiveObjects: 0.520100 ms CreateObjectMapping: 0.233100 m
 			InitializePlatformSupportModulesInManaged (44ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
+=======
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (669ms)
+		LoadAssemblies (527ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (279ms)
+			TypeCache.Refresh (235ms)
+				TypeCache.ScanAssembly (213ms)
+			ScanForSourceGeneratedMonoScriptInfo (36ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1158ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (874ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+>>>>>>> parent of 787757d (Save before working on other enemies)
 			BeforeProcessingInitializeOnLoad (121ms)
 			ProcessInitializeOnLoadAttributes (623ms)
 			ProcessInitializeOnLoadMethodAttributes (59ms)
@@ -1040,6 +1125,9 @@ Unloading 4197 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 53 unused Assets / (1.4 MB). Loaded Objects now: 4735.
 Memory consumption went from 150.3 MB to 148.8 MB.
 Total: 5.199500 ms (FindLiveObjects: 0.413800 ms CreateObjectMapping: 0.150300 ms MarkObjects: 4.150700 ms  DeleteObjects: 0.483600 ms)
+<<<<<<< HEAD
+>>>>>>> parent of 787757d (Save before working on other enemies)
+=======
 >>>>>>> parent of 787757d (Save before working on other enemies)
 
 Prepare: number of updated asset objects reloaded= 0
@@ -1062,8 +1150,13 @@ Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Ryzen\Documents\GitHub\1BIT-Jam\1bit jam 2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Ryzen\Documents\GitHub\1BIT-Jam\1bit jam 2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Loaded All Assemblies, in  1.428 seconds
 Refreshing native plugins compatible for Editor in 12.56 ms, found 4 plugins.
+=======
+- Loaded All Assemblies, in  0.784 seconds
+Refreshing native plugins compatible for Editor in 12.25 ms, found 4 plugins.
+>>>>>>> parent of 787757d (Save before working on other enemies)
 =======
 - Loaded All Assemblies, in  0.784 seconds
 Refreshing native plugins compatible for Editor in 12.25 ms, found 4 plugins.
@@ -1072,6 +1165,7 @@ Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 <<<<<<< HEAD
 - Finished resetting the current domain, in  2.132 seconds
 Domain Reload Profiling: 3547ms
@@ -1094,6 +1188,8 @@ Domain Reload Profiling: 3547ms
 			ResolveRequiredComponents (9ms)
 	FinalizeReload (2133ms)
 =======
+=======
+>>>>>>> parent of 787757d (Save before working on other enemies)
 - Finished resetting the current domain, in  2.012 seconds
 Domain Reload Profiling: 2783ms
 	BeginReloadAssembly (240ms)
@@ -1107,6 +1203,7 @@ Domain Reload Profiling: 2783ms
 	initialDomainReloadingComplete (59ms)
 	LoadAllAssembliesAndSetupDomain (405ms)
 		LoadAssemblies (516ms)
+<<<<<<< HEAD
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (19ms)
 			TypeCache.Refresh (7ms)
@@ -1584,6 +1681,101 @@ Unloading 19 unused Assets / (1.4 MB). Loaded Objects now: 4728.
 Memory consumption went from 86.1 MB to 84.7 MB.
 Total: 5.907700 ms (FindLiveObjects: 0.472700 ms CreateObjectMapping: 0.307000 ms MarkObjects: 4.582600 ms  DeleteObjects: 0.543300 ms)
 =======
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (414ms)
+		LoadAssemblies (542ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (2181ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (967ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (49ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (164ms)
+			ProcessInitializeOnLoadAttributes (675ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 12.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4197 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (1.4 MB). Loaded Objects now: 4743.
+Memory consumption went from 150.3 MB to 148.8 MB.
+Total: 6.697400 ms (FindLiveObjects: 0.461900 ms CreateObjectMapping: 0.219300 ms MarkObjects: 5.159500 ms  DeleteObjects: 0.855200 ms)
+>>>>>>> parent of 787757d (Save before working on other enemies)
+=======
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2013ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (906ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (147ms)
+			ProcessInitializeOnLoadAttributes (628ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 9.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4197 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (1.4 MB). Loaded Objects now: 4739.
+Memory consumption went from 150.3 MB to 148.8 MB.
+Total: 4.855600 ms (FindLiveObjects: 0.400300 ms CreateObjectMapping: 0.115500 ms MarkObjects: 3.851900 ms  DeleteObjects: 0.486400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ryzen\Documents\GitHub\1BIT-Jam\1bit jam 2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ryzen\Documents\GitHub\1BIT-Jam\1bit jam 2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.812 seconds
+Refreshing native plugins compatible for Editor in 11.11 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.180 seconds
+Domain Reload Profiling: 2980ms
+	BeginReloadAssembly (258ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (54ms)
 	RebuildCommonClasses (51ms)
 	RebuildNativeTypeToScriptingClass (19ms)
