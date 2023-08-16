@@ -3,8 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
-using Random = UnityEngine.Random;
 using Quaternion = UnityEngine.Quaternion;
+using EZCameraShake;
 
 public class MeleeEnemyAI : MonoBehaviour
 {
@@ -18,6 +18,9 @@ public class MeleeEnemyAI : MonoBehaviour
     GameObject playerPos;
     NavMeshAgent agent;
     Animator anim;
+
+    [Header("CameraShake")]
+    [SerializeField]Vector4 cameraShake;
 
 
     void Start()
@@ -76,6 +79,7 @@ public class MeleeEnemyAI : MonoBehaviour
     {
         playerPos.GetComponent<PlayerHealth>().currentHealth -= Damage;
         playerPos.GetComponent<Rigidbody2D>().AddForce((playerPos.transform.position - transform.position).normalized * knockback, ForceMode2D.Impulse);
+        CameraShaker.Instance.ShakeOnce(cameraShake.x, cameraShake.y, cameraShake.z, cameraShake.w);
     }
 
 }

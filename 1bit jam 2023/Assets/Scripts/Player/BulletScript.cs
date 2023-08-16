@@ -9,6 +9,8 @@ public class BulletScript : MonoBehaviour
     public float Damage;
     public float knockback;
     public int EnergyReturned;
+    [Range(0, 1)]
+    public int bulletType;
 
     void Start()
     {

@@ -176,6 +176,7 @@ MonoBehaviour:
   Damage: 0
   knockback: 3
   EnergyReturned: 0
+  bulletType: 1
 --- !u!96 &-5369804338075408947
 TrailRenderer:
   serializedVersion: 3

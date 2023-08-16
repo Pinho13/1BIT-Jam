@@ -25,6 +25,7 @@ public class WeaponsManagement : MonoBehaviour
     [Header("Energy")]
     [SerializeField] int MaxEnergy;
     public int currentEnergy;
+    [Range(0, 1)]
     int typeOfBullet;
 
 
@@ -107,6 +108,7 @@ public class WeaponsManagement : MonoBehaviour
                 float currentSpread = Random.Range(-currentWeaponStats.spread, currentWeaponStats.spread);
                 GameObject bullet = Instantiate(currentWeaponStats.bullet[typeOfBullet], currentWeaponStats.firepoints[n].position, Quaternion.Euler(0, 0, transform.rotation.eulerAngles.z + currentSpread));
                 var bulletScript = bullet.GetComponent<BulletScript>();
+                bulletScript.bulletType = typeOfBullet;
                 bulletScript. Damage = currentWeaponStats.Damage;
                 bulletScript.EnergyReturned = currentWeaponStats.EnergyReturned;
                 bulletScript.knockback = currentWeaponStats.bulletKnockback;
