@@ -9,7 +9,6 @@ using EZCameraShake;
 public class MeleeEnemyAI : MonoBehaviour
 {
     public bool following;
-    bool endatack;
 
     [Header("Enemy Stats")]
     [SerializeField]float Damage;
@@ -42,7 +41,7 @@ public class MeleeEnemyAI : MonoBehaviour
 
     void FollowPlayer()
     {
-        if(following && !endatack)
+        if(following)
         {
             anim.SetBool("Atacking", false);
             agent.SetDestination(playerPos.transform.position);
@@ -78,15 +77,9 @@ public class MeleeEnemyAI : MonoBehaviour
 
     void HitOpponent()
     {
-        endatack = true;
         playerPos.GetComponent<PlayerHealth>().currentHealth -= Damage;
         playerPos.GetComponent<Rigidbody2D>().AddForce((playerPos.transform.position - transform.position).normalized * knockback, ForceMode2D.Impulse);
         CameraShaker.Instance.ShakeOnce(cameraShake.x, cameraShake.y, cameraShake.z, cameraShake.w);
-    }
-
-    void endAnim()
-    {
-        endatack = false;
     }
 
 }
