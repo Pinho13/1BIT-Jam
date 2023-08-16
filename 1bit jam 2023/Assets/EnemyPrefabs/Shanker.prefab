@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 6432948415301445445}
   - component: {fileID: 1527197004388013335}
   m_Layer: 0
-  m_Name: BasicmeleeDark 1
+  m_Name: Shanker
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79,7 +79,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: 4d38c6c264f67ab4a80b2d72e211eefe, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0d5ea6fea0647eb44bd21dd27de7ec92, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -100,7 +100,7 @@ Animator:
   m_GameObject: {fileID: 1289306733303751931}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d3fe44e81ba024c42904e0d51e372fda, type: 2}
+  m_Controller: {fileID: 22100000, guid: 737305d34fd71684b9666d62646e5d6f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -143,8 +143,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.28, y: 0}
-  m_Size: {x: 1.5, y: 2.6}
+  m_Offset: {x: 0.08718622, y: 0.05868244}
+  m_Size: {x: 1.1143725, y: 1.7784457}
   m_Direction: 0
 --- !u!114 &625900841506077606
 MonoBehaviour:
@@ -159,9 +159,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   following: 1
-  Damage: 10
-  knockback: 40
-  cameraShake: {x: 5, y: 2, z: 0.2, w: 0.5}
+  Damage: 5
+  knockback: 20
+  cameraShake: {x: 4, y: 1.5, z: 0.2, w: 0.5}
 --- !u!195 &3414646043570581556
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -171,17 +171,17 @@ NavMeshAgent:
   m_GameObject: {fileID: 1289306733303751931}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 1.25
-  m_Speed: 5
-  m_Acceleration: 10
+  m_Radius: 0.6
+  m_Speed: 12
+  m_Acceleration: 20
   avoidancePriority: 50
-  m_AngularSpeed: 160
-  m_StoppingDistance: 3
+  m_AngularSpeed: 400
+  m_StoppingDistance: 4
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
-  m_Height: 3.5
-  m_BaseOffset: 1.75
+  m_Height: 2
+  m_BaseOffset: 1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!50 &6432948415301445445
@@ -224,16 +224,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DamageText: {fileID: 983288343116417657, guid: 227295252149c01479fa4f4014793f25, type: 3}
-  MaxHealth: 30
-  currentHealth: 2
+  MaxHealth: 4
+  currentHealth: 4
   knockbackVel: 1
-  EnemyType: 0
-  corpse: {fileID: 8446077337198949130, guid: 911f93b2472357940864b59e8e0f63c9, type: 3}
-  bloodDrops:
-  - {fileID: 9151888927806483235, guid: 1a235c81bed96324681e970479e6656f, type: 3}
-  - {fileID: 3430764556983244133, guid: bdca4f16db5a80f49bdbd41c8cd23da9, type: 3}
-  - {fileID: 7226697840157701064, guid: 7941ec5f91b4c4e4eb030dae30839f55, type: 3}
-  - {fileID: 3737868994072731433, guid: 70f704471c71e8b48869c3e220ec9dce, type: 3}
-  - {fileID: 7771127846239402304, guid: 199927226c7cb264b9e2f188142d9281, type: 3}
-  deathSpeedMultiplier: 15
-  dropSpeed: {x: 0, y: 25}
+  EnemyType: 1
+  corpse: {fileID: 8446077337198949130, guid: f147b97647a4ae24b9ff8be957cc5181, type: 3}
+  bloodSplash:
+  - {fileID: 2503078558868999920, guid: 052537de4c065c6419d6619004ee1f8f, type: 3}
+  - {fileID: 3970325711558237025, guid: d3f67772d4027194389afbe0fc9818ba, type: 3}
+  - {fileID: 2460795348021878421, guid: 6096c2d82b4e09e45bbab0be48a38d07, type: 3}
+  - {fileID: 9081941746037306778, guid: dce7b0791a557e04492cf91656a68f91, type: 3}
+  - {fileID: 2891414424343305826, guid: a6e18c14e61c41b49b84cffae6a27534, type: 3}
+  deathSpeedMultiplier: 20
+  splashRange: 2

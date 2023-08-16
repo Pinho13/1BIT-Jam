@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PriestAnim
+  m_Controller: {fileID: 9100000, guid: d3fe44e81ba024c42904e0d51e372fda, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: b783d0efa08b26d4baa7fb7e310f8b83, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 42dd251417d36564a9af56a33d0fc984, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 3e9f55cfdbf90d94f80d240fdafc5479, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f499459ddce467c4395b0b8de1d06d12, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 70fa3cc0b030b8a4183df7209df1f01c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 48201ca8696347143887391652702345, type: 2}

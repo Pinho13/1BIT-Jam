@@ -19,9 +19,9 @@ public class EnemyHealth : MonoBehaviour
 
     [Header("Death")]
     [SerializeField] GameObject corpse;
-    [SerializeField] GameObject[] bloodDrops;
+    [SerializeField] GameObject[] bloodSplash;
     [SerializeField] float deathSpeedMultiplier;
-    [SerializeField] Vector2 dropSpeed;
+    [SerializeField] float splashRange;
 
 
     void Start()
@@ -60,8 +60,7 @@ public class EnemyHealth : MonoBehaviour
                 weaponScript.currentEnergy += bulletScript.EnergyReturned;
                 Instantiate(bulletScript.particles, transform.position, Quaternion.identity);
                 Destroy(other.gameObject);
-                GameObject drop = Instantiate(bloodDrops[Random.Range(0, bloodDrops.Length)], transform.position, Quaternion.Euler(0f, 0f, Random.Range(0f, 360f)));
-                drop.GetComponent<Rigidbody2D>().AddForce(drop.transform.up * Random.Range(dropSpeed.x, dropSpeed.y), ForceMode2D.Impulse);
+                GameObject drop = Instantiate(bloodSplash[Random.Range(0, bloodSplash.Length)], transform.position + new Vector3(Random.Range(0, splashRange),Random.Range(0, splashRange), 0), Quaternion.Euler(0f, 0f, Random.Range(0f, 360f)));
             }else
             {
                 currentHealth += bulletScript.Damage;

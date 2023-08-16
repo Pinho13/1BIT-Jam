@@ -224,16 +224,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DamageText: {fileID: 983288343116417657, guid: 227295252149c01479fa4f4014793f25, type: 3}
-  MaxHealth: 30
-  currentHealth: 2
+  MaxHealth: 8
+  currentHealth: 8
   knockbackVel: 1
   EnemyType: 0
   corpse: {fileID: 8446077337198949130, guid: 911f93b2472357940864b59e8e0f63c9, type: 3}
-  bloodDrops:
-  - {fileID: 9151888927806483235, guid: 1a235c81bed96324681e970479e6656f, type: 3}
-  - {fileID: 3430764556983244133, guid: bdca4f16db5a80f49bdbd41c8cd23da9, type: 3}
-  - {fileID: 7226697840157701064, guid: 7941ec5f91b4c4e4eb030dae30839f55, type: 3}
-  - {fileID: 3737868994072731433, guid: 70f704471c71e8b48869c3e220ec9dce, type: 3}
-  - {fileID: 7771127846239402304, guid: 199927226c7cb264b9e2f188142d9281, type: 3}
+  bloodSplash:
+  - {fileID: 2503078558868999920, guid: 052537de4c065c6419d6619004ee1f8f, type: 3}
+  - {fileID: 3970325711558237025, guid: d3f67772d4027194389afbe0fc9818ba, type: 3}
+  - {fileID: 2460795348021878421, guid: 6096c2d82b4e09e45bbab0be48a38d07, type: 3}
+  - {fileID: 9081941746037306778, guid: dce7b0791a557e04492cf91656a68f91, type: 3}
+  - {fileID: 2891414424343305826, guid: a6e18c14e61c41b49b84cffae6a27534, type: 3}
   deathSpeedMultiplier: 15
-  dropSpeed: {x: 0, y: 25}
+  splashRange: 3
